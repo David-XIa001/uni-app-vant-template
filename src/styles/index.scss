@@ -1,0 +1,128 @@
+// 字体颜色
+.c9 {
+  color: #999;
+}
+
+.c6 {
+  color: #666;
+}
+.c3 {
+  color: #333;
+}
+.cm {
+  color: #ed773a;
+}
+
+.cmb {
+  color: #ff8046;
+}
+
+.c-fff,
+.c-white {
+  color: #fff;
+}
+
+.c-pri {
+  color: #00b26a;
+}
+
+// 字体大小
+
+.fsm {
+  font-size: 24rpx;
+}
+
+.fnm {
+  font-size: 28rpx;
+}
+
+.flg {
+  font-size: 32rpx;
+}
+
+.fllg {
+  font-size: 48rpx;
+}
+
+// 边距
+.mr10 {
+  margin-right: 10rpx;
+}
+.ml10 {
+  margin-left: 10rpx;
+}
+.mt10 {
+  margin-top: 10rpx;
+}
+.mb10 {
+  margin-bottom: 10rpx;
+}
+.mr20 {
+  margin-right: 20rpx;
+}
+.ml20 {
+  margin-left: 20rpx;
+}
+
+.mt20 {
+  margin-top: 20rpx;
+}
+.mb20 {
+  margin-bottom: 20rpx;
+}
+
+// 字重
+.fw600 {
+  font-weight: 600;
+}
+
+.tac {
+  text-align: center;
+}
+
+// 垂直居中
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ellipsis {
+  overflow: hidden; //超出的文本隐藏
+  text-overflow: ellipsis; //用省略号显示
+  white-space: nowrap; //不换行
+}
+
+.line {
+  height: 1px;
+  transform: scaleY(0.5);
+  width: 100%;
+  background-color: #ccc;
+  margin: 10rpx 0;
+}
+van-icon {
+  vertical-align: middle;
+}
+
+.bottom-float {
+  height: 140rpx;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  .btn {
+    width: 580rpx;
+    height: 80rpx;
+  }
+}
+.safe-area {
+  padding-bottom: 68rpx;
+}
